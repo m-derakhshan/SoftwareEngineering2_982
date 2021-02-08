@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layoutDirection="rtl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@drawable/profile_reminder_background_top"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/reminder_title"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textAppearance="@style/vazir_font"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/reminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/description"
+                android:layout_marginBottom="8dp"
+                android:textAppearance="@style/vazir_font"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/background_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:padding="12dp"
+                android:orientation="horizontal"
+                android:background="@drawable/profile_reminder_background_bottom"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/date"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/white"
+                    android:textAppearance="@style/vazir_font"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.9"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:id="@+id/go_event"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_chevron_left_black_24dp"
+                    android:background="@drawable/profile_reminder_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="ContentDescription" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:alpha="0.5"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/bell"
+            android:layout_width="47dp"
+            android:layout_height="60dp"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

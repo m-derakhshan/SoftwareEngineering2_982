@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="de.co.derakhshan.hamdad">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="n">
+        <activity android:name=".BlankActivity"></activity>
+        <activity android:name=".archive.ArchiveActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".score.ScoreActivity" />
+        <activity android:name=".all_event.FilterActivity" />
+        <activity android:name=".all_event.EventListActivity" />
+        <activity android:name=".event.EventDetailActivity" />
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".profile.ProfileActivity" />
+    </application>
+
+</manifest>
