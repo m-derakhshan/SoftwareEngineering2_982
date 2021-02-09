@@ -14,4 +14,4 @@ In this project, my collages, [Amir Hossein Kargaran](https://github.com/kargara
  ## Project Result
  here you can see some output pages pictorial
  
- <img align="center" width="100%" height="100%" src="https://uupload.ir/files/up3d_all.jpg">
+ <img align="center" width="850" height="975" src="https://uupload.ir/files/up3d_all.jpg">
