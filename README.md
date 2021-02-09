@@ -14,5 +14,5 @@ In this project, my collages, [Amir Hossein Kargaran](https://github.com/kargara
  ## Project Result
  here you can see some output pages pictorial
  
- ![outpu1](https://uupload.ir/files/9pxy_photo_2021-02-08_08-15-40.jpg)
+ ![outpu1](https://uupload.ir/files/up3d_all.jpg)
  
