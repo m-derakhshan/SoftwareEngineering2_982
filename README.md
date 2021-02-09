@@ -15,5 +15,5 @@ In this project, my collages, [Amir Hossein Kargaran](https://github.com/kargara
  here you can see some output pages pictorial
  
  <p align="center">
- <img width="850" height="975" src="https://uupload.ir/files/up3d_all.jpg">
+ <img width="500" height="574" src="https://uupload.ir/files/up3d_all.jpg">
  </p>
