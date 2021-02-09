@@ -10,3 +10,9 @@ In this project, my collages, [Amir Hossein Kargaran](https://github.com/kargara
  In [implementation folder](https://github.com/m-derakhshan/SoftwareEngineering2/tree/main/Implementation/Hamdad) you can find source code of a demo implemented android application writen in *Kotlin*
 
  also you can find scrum documentation of project *Burn Down Chart*, *Product Backlog*,...
+ 
+ ## Project Result
+ here you can see some output pages pictorial
+ 
+ ![outpu1](https://uupload.ir/files/9pxy_photo_2021-02-08_08-15-40.jpg)
+ 
