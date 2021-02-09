@@ -15,5 +15,5 @@ In this project, my collages, [Amir Hossein Kargaran](https://github.com/kargara
  here you can see some output pages pictorial
  
  <p align="center">
- <img width="1000" height="283" src="https://uupload.ir/files/cgx_all.jpg">
+ <img width="1000" height="250" src="https://uupload.ir/files/cgx_all.jpg">
  </p>
